@@ -11,8 +11,7 @@
     "migrate": "tsx src/Drizzle/migrate.ts",
     "push": "drizzle-kit push",
     "studio": "drizzle-kit studio",
-    "seed": "tsx src/Drizzle/seed.ts",
-    "test": "jest"
+    "seed": "tsx src/Drizzle/seed.ts"
   },
   "keywords": [],
   "author": "",
@@ -53,3 +52,5 @@
     "redux-persist": "^6.0.0"
   }
 }
+
+
