@@ -12,7 +12,7 @@
 //     connectionString: process.env.Database_URL as string,
 // })
 
-// export const client = neon(process.env.Database_URL!)
+// // export const client = neon(process.env.Database_URL!)
 
 // const main  = async() => {
 //     await client.connect();

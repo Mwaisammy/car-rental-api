@@ -23,7 +23,7 @@ export const getCustomerByIdController = async (req: Request, res: Response) => 
     if (!customer) return res.status(404).json({ message: "Customer not found" });
 
 
-    return res.status(200).json({ data: customer });
+    return res.status(200).json( customer);
 
   } catch (error: any) {
     return res.status(500).json({ error: error.message });
